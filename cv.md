@@ -35,3 +35,59 @@ I enjoy learning new technologies, solving problems, and working on tasks that r
 - Curiosity
 - Self-development
 - Willingness to learn
+
+## Code Example
+
+Solution to the [Calculate BMI](https://www.codewars.com/kata/57a429e253ba3381850000fb/javascript):
+
+```javascript
+function bmi(weight, height) {
+  const bmiValue = weight / (height * height);
+
+  if (bmiValue <= 18.5) {
+    return 'Underweight';
+  }
+
+  if (bmiValue <= 25) {
+    return 'Normal';
+  }
+
+  if (bmiValue <= 30) {
+    return 'Overweight';
+  }
+
+  return 'Obese';
+}
+```
+
+## Experience and Projects
+
+### HTML and CSS Practice
+
+I created educational web pages while following YouTube tutorials. This practice helped me understand the fundamentals of HTML, CSS and page layout.
+
+### CV Project
+
+My first published web development project, created as part of the RS School Full-Stack JavaScript course.
+
+- Technologies: Markdown, HTML, CSS, Git and GitHub Pages
+- Source code: [rsschool-cv](https://github.com/PavelShpetny/rsschool-cv)
+- Deployment: will be added after publication
+
+## Education
+
+### Bachelor of Computer Science
+
+First-year student, 2026–present
+
+## Courses
+
+- RS School — Full-Stack JavaScript, 2026–present
+- JavaRush — Python Full-Stack, 2026–present
+- English language course, 2026–present
+
+## English
+
+English level: B1.
+
+I actively improve my English through language classes, reading books in English, watching English-language videos and practising spoken communication.
